@@ -1,0 +1,12 @@
+$schema: "/Users/nielsgregersjohansen/kitchens/koksmat-schemas/.koksmat/schemas/deployment.schema.json"
+version: 1
+name: copy tsx files to my netsjs project
+description: copy tsx files to my netsjs project
+steps:
+  - name: copy tsx files to my netsjs project
+    description: copy tsx files to my netsjs project
+    type: copy
+    source: ./src
+    destination: /app/src
+    options:
+      overwrite: true
